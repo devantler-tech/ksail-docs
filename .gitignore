@@ -12,3 +12,6 @@ vendor/
 *.gem
 .ruby-version
 Gemfile.lock
+
+# megalinter reports
+megalinter-reports/
