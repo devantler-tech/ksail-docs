@@ -73,4 +73,7 @@ Launches [k9s](https://k9scli.io/) against the distribution and context defined 
 
 ## Workload and cipher commands
 
-Other command groups (`ksail workload`, `ksail cipher`, and the generators under `ksail workload gen`) inherit Kubernetes-native semantics. They forward all flags to the underlying tooling (`kubectl`, Helm, or SOPS), so rely on the upstream help output for exhaustive flag listings. The configuration rules above still apply: any cluster-related override you set for lifecycle commands carries across to workload reconciliation and secret management.
+Other command groups (`ksail workload`, `ksail cipher`, and the generators under `ksail workload gen`) inherit
+Kubernetes-native semantics. They forward all flags to the underlying tooling (`kubectl`, Helm, or SOPS), so rely on
+the upstream help output for exhaustive flag listings. The configuration rules above still apply: any cluster-related
+override you set for lifecycle commands carries across to workload reconciliation and secret management.
