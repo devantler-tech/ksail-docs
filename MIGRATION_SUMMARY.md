@@ -43,10 +43,11 @@ This document summarizes the migration of KSail documentation from the main ksai
 
 ## Changes Made to ksail-docs
 
-1. **Created `docs/` directory** with complete documentation structure
+1. **Moved documentation to root directory** - All documentation is now in the repository root (not in a docs/ subdirectory) for simplicity
 2. **Updated `README.md`** to include:
    - Documentation structure overview
    - Quick navigation links
+   - Getting started section
    - Related projects section
 3. **Created `KSAIL_GO_PR_INSTRUCTIONS.md`** with detailed steps for the corresponding ksail-go PR
 
@@ -54,18 +55,18 @@ This document summarizes the migration of KSail documentation from the main ksai
 
 ```
 ksail-docs/
-├── README.md                           # Updated with navigation
+├── README.md                           # Main documentation index with navigation
 ├── LICENSE                             # Unchanged
 ├── KSAIL_GO_PR_INSTRUCTIONS.md        # Instructions for ksail-go PR
 ├── MIGRATION_SUMMARY.md                # This file
-└── docs/
-    ├── README.md                       # Documentation index
-    ├── configuration/                  # Configuration guides (3 files)
-    ├── images/                         # Shared images (7 files)
-    ├── overview/                       # Product overview (3 files)
-    │   └── core-concepts/              # Core concepts (13 files)
-    └── use-cases/                      # Use case guides (4 files)
+├── configuration/                      # Configuration guides (3 files)
+├── images/                             # Shared images (7 files)
+├── overview/                           # Product overview (3 files)
+│   └── core-concepts/                  # Core concepts (13 files)
+└── use-cases/                          # Use case guides (4 files)
 ```
+
+**Note:** Documentation is in the root directory (not in a docs/ subdirectory) for simplicity.
 
 ## Link Verification
 

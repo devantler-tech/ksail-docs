@@ -4,7 +4,7 @@ This document contains instructions for creating a PR on the [ksail-go repositor
 
 ## Summary
 
-The documentation has been successfully migrated from `devantler-tech/ksail-go` to `devantler-tech/ksail-docs`. A corresponding PR needs to be created on the ksail-go repository to:
+The documentation has been successfully migrated from `devantler-tech/ksail-go/docs/` to the root of `devantler-tech/ksail-docs`. A corresponding PR needs to be created on the ksail-go repository to:
 
 1. Remove the `docs/` directory
 2. Update the README.md to point to the new documentation location
@@ -27,6 +27,8 @@ This includes:
 - `docs/use-cases/` (4 markdown files)
 
 Total: 31 files to be removed
+
+**Note:** The documentation has been moved to the root of the ksail-docs repository (not in a docs/ subdirectory).
 
 ### 2. Update README.md
 
