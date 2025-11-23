@@ -1,0 +1,5 @@
+[0000]  WARN no explicit name and version provided for directory source, deriving artifact ID from the given path (which is not ideal)
+NAME                                                                       VERSION   TYPE                    
+actions/checkout                                                           v6.0.0    github-action           
+devantler-tech/reusable-workflows/.github/workflows/cd-pages-publish.yaml  main      github-action-workflow  
+ruby/setup-ruby                                                            v1.268.0  github-action
