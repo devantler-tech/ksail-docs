@@ -9,7 +9,7 @@ Running `ksail cluster init` scaffolds a repository that is immediately compatib
     └── kustomization.yaml   # Root Kustomize entrypoint referenced by workload commands
 ```
 
-When the `--secret-manager SOPS` option is enabled (or `spec.project.secretManager` is set in `ksail.yaml`), KSail-Go also adds a `.sops.yaml` file and a `keys/` directory stub so the `ksail cipher` commands have an opinionated home for Age recipients. See the [configuration docs](../configuration/index.md#when-to-edit-what) for guidance on managing these files in version control.
+When the `--secret-manager SOPS` option is enabled (or `spec.project.secretManager` is set in `ksail.yaml`), KSail-Go also adds a `.sops.yaml` file and a `keys/` directory stub so the `ksail cipher` commands have an opinionated home for Age recipients. See the [configuration docs](../configuration/#when-to-edit-what) for guidance on managing these files in version control.
 
 ## Organizing with Kustomize
 

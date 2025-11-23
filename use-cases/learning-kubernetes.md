@@ -1,6 +1,6 @@
 # Learning Kubernetes
 
-KSail-Go removes the heavy lifting required to experiment with Kubernetes. By wrapping Kind and K3d behind a consistent interface you can focus on objects, workloads, and reconciliation instead of cluster plumbing. Review the [configuration reference](../configuration/index.md) if you want a deeper explanation of the fields mentioned in this guide.
+KSail-Go removes the heavy lifting required to experiment with Kubernetes. By wrapping Kind and K3d behind a consistent interface you can focus on objects, workloads, and reconciliation instead of cluster plumbing. Review the [configuration reference](../configuration/) if you want a deeper explanation of the fields mentioned in this guide.
 
 ## Quick start session
 

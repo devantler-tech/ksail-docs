@@ -1,6 +1,6 @@
 # Local Development
 
-KSail-Go lets you reproduce production-grade manifests on your laptop without hand-crafting cluster plumbing each time. The CLI leans on your existing container engine (Docker or Podman) and applies the same declarative configuration used in CI so developers share a consistent workflow. If you need a refresher on configuration precedence or flags, see the [configuration overview](../configuration/index.md) before starting.
+KSail-Go lets you reproduce production-grade manifests on your laptop without hand-crafting cluster plumbing each time. The CLI leans on your existing container engine (Docker or Podman) and applies the same declarative configuration used in CI so developers share a consistent workflow. If you need a refresher on configuration precedence or flags, see the [configuration overview](../configuration/) before starting.
 
 ## Day-to-day loop
 

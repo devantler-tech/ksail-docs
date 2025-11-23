@@ -6,7 +6,7 @@ KSail-Go keeps cluster behavior reproducible by funnelling every option through 
 
 - [CLI options](cli-options.md) – Override configuration at runtime when you need a one-off change or want to experiment without editing YAML files.
 - [Declarative config](declarative-config.md) – Capture long-lived settings inside `ksail.yaml`, `kind.yaml`, and `k3d.yaml` so the entire team shares the same environment.
-- GitOps and workloads – The generated `k8s/` directory and Flux-ready layout remain declarative; see [project structure](../overview/project-structure.md) for the repo layout and the [use-case guides](../use-cases/index.md) for practical workflows.
+- GitOps and workloads – The generated `k8s/` directory and Flux-ready layout remain declarative; see [project structure](../overview/project-structure.md) for the repo layout and the [use-case guides](../use-cases/) for practical workflows.
 
 ## Precedence and loading
 

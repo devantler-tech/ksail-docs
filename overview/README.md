@@ -21,7 +21,7 @@ KSail-Go is built for platform engineers, site reliability engineers, and develo
 
 - [Project structure](project-structure.md) explains how the repository scaffolding is organized and how Kustomize overlays fit into the workflow.
 - [Support matrix](support-matrix.md) lists the combinations we currently validate for platforms, container engines, and controllers.
-- [Configuration guides](../configuration/index.md) describe the CLI flags, declarative YAML, and precedence rules that shape each cluster.
-- [Use-case playbooks](../use-cases/index.md) capture guided workflows for local development, learning Kubernetes, and running KSail-Go inside CI pipelines.
+- [Configuration guides](../configuration/) describe the CLI flags, declarative YAML, and precedence rules that shape each cluster.
+- [Use-case playbooks](../use-cases/) capture guided workflows for local development, learning Kubernetes, and running KSail-Go inside CI pipelines.
 
 Each section references the Go-based CLI and links back to the commands or configuration files you will touch most frequently.

@@ -15,7 +15,7 @@ Each folder contains index pages to help you navigate deeper into specific topic
 
 ## 🚀 Getting Started
 
-- **New to KSail?** Start with [overview/index.md](overview/index.md)
+- **New to KSail?** Start with [overview/](overview/)
 - **Installing KSail?** Visit [devantler-tech/ksail-go](https://github.com/devantler-tech/ksail-go)
 - **Need API docs?** See [pkg.go.dev](https://pkg.go.dev/github.com/devantler-tech/ksail-go)
 
