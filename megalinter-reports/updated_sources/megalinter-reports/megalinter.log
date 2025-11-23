@@ -204,34 +204,3 @@ Processing linters on [4] parallel cores… (can be decreased with variable PARA
 [MARKDOWN_SUMMARY Reporter] Generated MARKDOWN_SUMMARY report: /github/workspace/megalinter-reports/megalinter-report.md
 [MARKDOWN_SUMMARY Reporter] Also appended to GITHUB_STEP_SUMMARY: /github/file_commands/step_summary_134becae-6335-4424-bdf9-e211b4f06914
 [GitHub Comment Reporter] Posted summary as comment on devantler-tech/ksail-docs #PR2
-[Updated Sources Reporter] copied 5 fixed source files in folder /github/workspace/megalinter-reports/updated_sources.
-
-+----SUMMARY----+--------------------------+---------------+-------+-------+--------+----------+--------------+
-| Descriptor    | Linter                   | Mode          | Files | Fixed | Errors | Warnings | Elapsed time |
-+---------------+--------------------------+---------------+-------+-------+--------+----------+--------------+
-| ✅ ACTION     | actionlint               | list_of_files |     2 |       |      0 |        0 | 0.25s        |
-| ✅ COPYPASTE  | jscpd                    | project       |   n/a |       |      0 |        0 | 1.06s        |
-| ✅ JSON       | jsonlint                 | list_of_files |     1 |       |      0 |        0 | 0.14s        |
-| ✅ JSON       | prettier                 | list_of_files |     1 |     0 |      0 |        0 | 0.29s        |
-| ✅ JSON       | v8r                      | list_of_files |     1 |       |      0 |        0 | 2.84s        |
-| ✅ MARKDOWN   | markdownlint             | list_of_files |    24 |     0 |      0 |        0 | 0.86s        |
-| ✅ MARKDOWN   | markdown-table-formatter | list_of_files |    24 |     0 |      0 |        0 | 0.25s        |
-| ✅ REPOSITORY | gitleaks                 | project       |   n/a |       |      0 |        0 | 0.08s        |
-| ✅ REPOSITORY | git_diff                 | project       |   n/a |       |      0 |        0 | 0.0s         |
-| ✅ REPOSITORY | grype                    | project       |   n/a |       |      0 |        0 | 26.1s        |
-| ✅ REPOSITORY | secretlint               | project       |   n/a |       |      0 |        0 | 0.5s         |
-| ✅ REPOSITORY | syft                     | project       |   n/a |       |      0 |        0 | 1.16s        |
-| ✅ REPOSITORY | trivy                    | project       |   n/a |       |      0 |        0 | 5.16s        |
-| ✅ REPOSITORY | trivy-sbom               | project       |   n/a |       |      0 |        0 | 0.1s         |
-| ✅ REPOSITORY | trufflehog               | project       |   n/a |       |      0 |        0 | 2.17s        |
-| ✅ SPELL      | lychee                   | list_of_files |    30 |       |      0 |        0 | 11.34s       |
-| ✅ YAML       | prettier                 | list_of_files |     5 |     0 |      0 |        0 | 0.35s        |
-| ✅ YAML       | v8r                      | list_of_files |     5 |       |      0 |        0 | 4.89s        |
-| ✅ YAML       | yamllint                 | list_of_files |     5 |       |      0 |        0 | 0.34s        |
-+---------------+--------------------------+---------------+-------+-------+--------+----------+--------------+
-
-[34mYour project could benefit from a custom flavor, which would allow you to run only the linters you need, and thus improve runtime performances. (Skip this info by defining `FLAVOR_SUGGESTIONS: false`)
-[0m- Documentation: https://megalinter.io/9.1.0/custom-flavors/
-- Command: `npx mega-linter-runner@9.1.0 --custom-flavor-setup --custom-flavor-linters ACTION_ACTIONLINT,COPYPASTE_JSCPD,JSON_JSONLINT,JSON_V8R,JSON_PRETTIER,MARKDOWN_MARKDOWNLINT,MARKDOWN_MARKDOWN_TABLE_FORMATTER,REPOSITORY_GIT_DIFF,REPOSITORY_GITLEAKS,REPOSITORY_GRYPE,REPOSITORY_SECRETLINT,REPOSITORY_SYFT,REPOSITORY_TRIVY,REPOSITORY_TRIVY_SBOM,REPOSITORY_TRUFFLEHOG,SPELL_LYCHEE,YAML_PRETTIER,YAML_YAMLLINT,YAML_V8R`
-
-[32m✅ Successfully linted all files without errors[0m
