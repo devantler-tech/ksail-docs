@@ -1,6 +1,6 @@
 # Secret Manager
 
-KSail-Go integrates [SOPS](https://getsops.io) for encrypting manifests. Enable it with `ksail cluster init --secret-manager SOPS` or keep it disabled with `--secret-manager None`. The declarative equivalent lives under `spec.security.secretManager`.
+KSail-Go integrates [SOPS](https://github.com/getsops/sops) for encrypting manifests. Enable it with `ksail cluster init --secret-manager SOPS` or keep it disabled with `--secret-manager None`. The declarative equivalent lives under `spec.security.secretManager`.
 
 > **Tip:** Enable the secret manager during initialization so KSail-Go can generate an Age keypair and bootstrap the `.sops.yaml` configuration automatically.
 
