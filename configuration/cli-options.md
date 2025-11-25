@@ -57,7 +57,7 @@ Resume or pause an existing cluster without rebuilding it. Both commands honour 
 
 ### `ksail cluster delete`
 
-Destroys the cluster defined in `ksail.yaml` and removes any mirror registries that were created. Use `--delete-registry-volumes` when you want Docker volumes cleaned up as well.
+Destroys the cluster defined in `ksail.yaml` and removes any mirror registries that were created. Use `--delete-volumes` when you want Docker volumes cleaned up as well.
 
 ### `ksail cluster list`
 

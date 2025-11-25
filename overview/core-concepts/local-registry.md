@@ -15,7 +15,7 @@ KSail-Go can run local [OCI Distribution](https://distribution.github.io/distrib
 1. **Initialization:** `ksail cluster init --mirror-registry docker.io=https://registry-1.docker.io` writes registry definitions into `ksail.yaml` and the generated distribution configs.
 2. **Creation:** `ksail cluster create` starts `registry:3` containers for each mirror and connects them to the cluster network.
 3. **Use:** Tag images with the mirror host (for example `docker tag my-api localhost:5001/my-api`) and push. Containerd inside the cluster is pre-configured to pull through the mirror.
-4. **Cleanup:** `ksail cluster delete --delete-registry-volumes` tears down mirror containers and their storage.
+4. **Cleanup:** `ksail cluster delete --delete-volumes` tears down mirror containers and their storage.
 
 ## Troubleshooting
 
