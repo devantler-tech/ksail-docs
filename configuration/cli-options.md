@@ -25,7 +25,7 @@ When enabled, each successful activity prints a timing block immediately after t
 ```text
 ✔ completion message
 ⏲ current: <duration>
-	total:  <duration>
+  total:  <duration>
 ```
 
 ## Shared cluster flags
