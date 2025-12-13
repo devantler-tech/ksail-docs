@@ -1,6 +1,6 @@
 # CLI Options
 
-The KSail-Go CLI exposes the same configuration surface everywhere: strongly typed flags that feed into `ksail.yaml`. Run `ksail <command> --help` to see the latest options, or use the quick references below when you need to remember which flag overrides which field.
+The KSail-Go CLI exposes the same configuration surface everywhere: strongly typed flags that typically feed into `ksail.yaml`. Run `ksail <command> --help` to see the latest options, or use the quick references below when you need to remember which flag overrides which field.
 
 ## Quick reference
 
@@ -12,12 +12,28 @@ ksail cluster delete --help      # Clean-up options
 ksail cluster connect -- --help  # Pass-through flags to k9s (note the `--`)
 ```
 
+## Global flags
+
+Some options affect CLI behavior rather than configuration.
+
+| Flag       | Purpose                                                            |
+| ---------- | ------------------------------------------------------------------ |
+| `--timing` | Enable per-activity timing output for the current invocation only. |
+
+When enabled, each successful activity prints a timing block immediately after the `✔` success line:
+
+```text
+✔ completion message
+⏲ current: <duration>
+	total:  <duration>
+```
+
 ## Shared cluster flags
 
 The cluster subcommands (`init`, `create`, `start`, `stop`, `delete`, `list`, `connect`) all bind to the same underlying configuration manager. Flags map directly to fields inside `ksail.yaml`, environment variables prefixed with `KSAIL_`, and sensible defaults.
 
 | Flag                    | Short | Config key                   | Env variable                       | Default                   | Available on                                                                                                           |
-|-------------------------|-------|------------------------------|------------------------------------|---------------------------|------------------------------------------------------------------------------------------------------------------------|
+| ----------------------- | ----- | ---------------------------- | ---------------------------------- | ------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
 | `--distribution`        | `-d`  | `spec.distribution`          | `KSAIL_SPEC_DISTRIBUTION`          | `Kind`                    | `cluster init`, `cluster create`, `cluster start`, `cluster stop`, `cluster delete`, `cluster list`, `cluster connect` |
 | `--distribution-config` | –     | `spec.distributionConfig`    | `KSAIL_SPEC_DISTRIBUTIONCONFIG`    | `kind.yaml`               | Same as above                                                                                                          |
 | `--context`             | `-c`  | `spec.connection.context`    | `KSAIL_SPEC_CONNECTION_CONTEXT`    | Derived from distribution | Same as above                                                                                                          |
